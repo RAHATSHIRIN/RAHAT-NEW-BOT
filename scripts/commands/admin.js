@@ -1,18 +1,18 @@
 module.exports.config = {
-  name: "operator",
+  name: "admin",
   version: "2.0.0",
   permission: 0,
-  credits: "ryuko",
+  credits: "RAHAT",
   description: "control operator lists",
   prefix: false,
-  category: "operator",
-  usages: "operator [add/remove] [uid]",
+  category: "admin",
+  usages: "admin [add/remove] [uid]",
   cooldowns: 5,
 };
 
 module.exports.languages = {
     "en": {
-        "listAdmin": 'operators : \n\n%1',
+        "listAdmin": 'admin : \n\n%1',
         "notHavePermssion": 'you have no permission to use "%1"',
         "addedNewAdmin": 'added %1 operator :\n\n%2',
         "removedAdmin": 'remove %1 operator :\n\n%2'
