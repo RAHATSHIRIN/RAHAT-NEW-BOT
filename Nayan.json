@@ -7,17 +7,17 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
-  "PREFIX": "/",
+  "BOTNAME": "LSFG YOUR BABY BOT",
+  "PREFIX": ".",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
-  ],
-  "ADMINBOT": [
-    "100000959749712",
+    "100017950245626",
     ""
   ],
-  "OWNER": ["100000959749712"], 
+  "ADMINBOT": [
+    "100017950245626",
+    ""
+  ],
+  "OWNER": ["100017950245626"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
