@@ -1,9 +1,9 @@
  module.exports = {
   config: {
-    name: "bing",
+    name: "dalle",
     version: "1.0.0",
     permission: 0,
-    credits: "Nayan",
+    credits: "RAHAT",
     description: "",
     prefix: 'awto',
     category: "auto prefix",
@@ -28,7 +28,7 @@ start: async function({ nayan, events, args, lang}) {
   const n = apis.data.bing
     if(!prompt) return nayan.reply(lang('missing'), events.threadID, events.messageID)
 
-  const rndm = ['cookie'] // input your cookie hare
+  const rndm = ['1SJ5rtWR9TZuMqsF2fHv8J0Gv1LLmrteUOrqLvWuUah0bafIfMkAJLTLPjUk1vb4vyXE5YU_jlEt36n9hpQICAJdNDcluOWEC-WAF5mrbw1qTeTUvdFUPpoZNrke8lXmEGOl2JbJ3H9a_47Id-JgHpbJBmw_yugem-PEGRGE0bsKSitmvaA_z5EumeAOMvrrBFnl5wQKdEOez-d2txXQGxg'] // input your cookie hare
 
   var cookie = rndm[Math.floor(Math.random() * rndm.length)];
 
